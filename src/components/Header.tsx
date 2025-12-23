@@ -20,10 +20,10 @@ export function Header({ theme, onToggleTheme }: HeaderProps) {
     <header className="w-full flex items-center justify-between p-4 md:p-6">
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-          <span className="text-primary-foreground font-bold text-sm">M</span>
+          <span className="text-primary-foreground font-bold text-sm">T</span>
         </div>
         <h1 className="text-xl font-semibold">
-          <span className="text-gradient">Master Clock</span>
+          <span className="text-gradient">Timekeeper</span>
         </h1>
       </div>
 
