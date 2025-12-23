@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Timekeeper</title>
+    <script>
+      // Redirect to index for SPA routing
+      sessionStorage.redirect = location.href;
+      location.replace(location.pathname.split('/').slice(0, 2).join('/') + '/');
+    </script>
+  </head>
+  <body></body>
+</html>
